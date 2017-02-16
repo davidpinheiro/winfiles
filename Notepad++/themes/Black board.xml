@@ -729,6 +729,17 @@ Credits:
             <WordsStyle name="Selected Line" styleID="5" fgColor="000080" bgColor="FFFF4F" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
             <WordsStyle name="Current line background colour" styleID="6" bgColor="400040" fgColor="0080FF" fontSize="" fontStyle="0">bool long int char</WordsStyle>
         </LexerType>
+        <LexerType name="yaml" desc="YAML" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="F8F8F8" bgColor="0C1021" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="2" fgColor="000080" bgColor="0C1021" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="0C1021" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="3" fgColor="0000FF" bgColor="0C1021" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8040" bgColor="0C1021" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
+            <WordsStyle name="REFERENCE" styleID="5" fgColor="804000" bgColor="0C1021" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
+            <WordsStyle name="DOCUMENT" styleID="6" fgColor="0000FF" bgColor="0C1021" fontName="" fontStyle="0" fontSize="">bool long int char</WordsStyle>
+            <WordsStyle name="TEXT" styleID="7" fgColor="808080" bgColor="0C1021" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="ERROR" styleID="8" fgColor="FF0000" bgColor="0C1021" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
